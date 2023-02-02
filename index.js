@@ -50,3 +50,9 @@ function decreaseSize() {
     rect.style.width = rectangle_width + "px";
 }
 
+var borderRadius = document.getElementsByName("border-width");
+for (var i = 0; i < borderRadius.length; i++) {
+    borderRadius[i].onclick = function () {
+        rect.style.borderWidth = this.value + "px";
+    };
+}
