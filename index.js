@@ -21,3 +21,10 @@ function moveDown() {
     rect.style.top = up + "px";
 }
 
+function reset() {
+    rect.style.backgroundColor = "red";
+    left = 100;
+    top = 100;
+    rectangle_width = 200;
+    rectangle_height = 120;
+}
